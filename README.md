@@ -40,7 +40,9 @@ $ node
   let earthAge = earthBornDate - yearToDay
   console.log("Am " + name + " " + otherName + " and I live on earth which I think is "+earthAge)
   ```
- - press control + D to exit editor mode
+ press control + D to exit editor mode
+ 
+ and enter the following command to save our code from the terminal.
  
  > .save nodeTest.js
  
