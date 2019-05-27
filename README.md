@@ -31,17 +31,21 @@ To test our Node JS server open command prompt and do the following.
 
 $ node
 > .editor
+
+```javascript
   const name = "your name"
   const otherName = "your other name"
-  const earthBornDate = "add day earth was born"
+  const earthBornDate = "add year you think earth was born"
   const yearToDay = "add this year"
   let earthAge = earthBornDate - yearToDay
   console.log("Am " + name + " " + otherName + " and I live on earth which I think is "+earthAge)
-  
- # press control + D to exit editor mode
+  ```
+ - press control + D to exit editor mode
+ 
  > .save nodeTest.js
- This will save what we wrote in the editor to nodeTest.js file in the current directory.
- Exit node terminal by hiting control + C several times.
+ 
+This will save what we wrote in the editor to nodeTest.js file in the current directory.
+Exit node terminal by hiting control + C several times.
  
 Run the nodeTest.js as our save by doing the following;
 Since we will be in the bash terminal, type ls command to list files that are in that directory and we you should be able to see the nodeTest.js file we created.
