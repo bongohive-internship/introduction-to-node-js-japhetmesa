@@ -28,9 +28,10 @@ You can right Javascript scripts on your computer, but to run them as server sid
 This should give you the version of node thalt is running on your computer.
 
 To test our Node JS server open command prompt and do the following.
-
+```bash
 $ node
 > .editor
+```
 
 ```javascript
   const name = "your name"
@@ -43,8 +44,10 @@ $ node
  press control + D to exit editor mode
  
  and enter the following command to save our code from the terminal.
- 
+
+```bash
  > .save nodeTest.js
+``` 
  
 This will save what we wrote in the editor to nodeTest.js file in the current directory.
 Exit node terminal by hiting control + C several times.
@@ -53,9 +56,9 @@ Run the nodeTest.js as our save by doing the following;
 Since we will be in the bash terminal, type ls command to list files that are in that directory and we you should be able to see the nodeTest.js file we created.
 
 To run the script type
-
+```bash
 $ node nodeTest.js
-
+```
 you should see the output on the console.
 
 # Assignment
